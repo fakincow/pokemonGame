@@ -19,8 +19,10 @@ const GameBoard = ({ onAtack, dices, startNewGame, gameHistory, gameStatus }) =>
       setDisableAtackBtn(true);
     }
     if (gameStatus === GAME_STATES.newGame || gameStatus === GAME_STATES.gameOver) {
+      setDisableAtackBtn(true);
       setDisableNewBtn(false);
     } else {
+      setDisableAtackBtn(false);
       setDisableNewBtn(true);
     }
   }, [gameStatus]);

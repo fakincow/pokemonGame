@@ -15,9 +15,10 @@ const GamePage = () => {
   const [opponentName, setOpponentName] = useState('Opponent');
   useEffect(() => {
     if (playerhitPonts <= 0 || opponenthitPonts <= 0) {
+      clearTimeout(timeOuts);
       gameOver();
     }
-  }, [playerhitPonts, opponenthitPonts]);
+  }, [playerhitPonts, opponenthitPonts, gameStatus]);
   const gameOver = () => {
     setGameStatus(GAME_STATES.gameOver);
   }
