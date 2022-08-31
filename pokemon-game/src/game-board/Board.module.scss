@@ -1,0 +1,67 @@
+* {
+    box-sizing: border-box;
+  }
+  .ButtonsPannel{
+    display: inline;
+  
+  }
+.GameHistory{
+    overflow:hidden; overflow-y:scroll;
+    height: 350px;
+    padding-top: 20px;
+    font-size: 11px;
+}
+.DiceRes{
+    font-size: 25px;
+    color: red;
+    top: 3px;
+    position: relative;
+}
+.Dice{
+    display: inline-flex;
+    justify-content: center;
+    background-color: #c8c8c8;
+    width: 90%;
+    padding:10px;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+.MoveResponse{
+    text-align: left;
+    margin-top: 30px;
+}
+.Stone{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    border-radius: 6px;
+    width: 60px;
+    height: 60px;
+    background-color: #5e5f60;
+    color: white;
+    font-size: 18px;
+
+}
+.GameBoard {
+    width: 400px;
+    display: block;
+    background-color: white;
+    color: black;
+    box-shadow: 1px 2px 3px 1px #1b1b1b;
+    border: 2px;
+    border-color: white;
+    border-radius: 9px;
+    margin-top: 10px;
+    font-weight: 600;
+
+    button {
+        height: 36px;
+    }
+    label {
+        padding-left: 10px;
+    }
+}
+
+
+

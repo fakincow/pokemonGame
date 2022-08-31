@@ -1,0 +1,49 @@
+* {
+    box-sizing: border-box;
+  }
+.Selected {
+    background-color: #3882df;
+}
+.Card {
+    width: 400px;
+    display: block;
+    background-color: white;
+    color: black;
+    box-shadow: 1px 2px 3px 1px #1b1b1b;
+    border: 2px;
+    border-color: white;
+    border-radius: 9px;
+    margin-top: 10px;
+    font-weight: 600;
+
+    button {
+        border-color: #3882df;
+        background-color: white;
+        border-radius: 5px;
+        width: 105px;
+        bottom: -75px;
+        right: -10px;
+        position: relative;
+        height: 30px;
+    }
+    label {
+        padding-left: 10px;
+    }
+}
+.Avatar{
+    display: flex;
+    padding: 5px;
+}
+.Descr_txt {
+    font-size: 12px;
+    padding-left: 10px;
+}
+img{
+    height: 100px;
+    width: 100px;
+}
+.User{
+    text-transform: uppercase;
+    color: darkred;
+    
+}

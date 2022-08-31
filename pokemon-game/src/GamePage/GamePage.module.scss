@@ -1,0 +1,40 @@
+.GamePage {
+    text-align: center;
+    display: inline-flex;
+    width: 100%;
+    justify-content: center;
+    height: 700px;
+    background-color: yellowgreen;
+}
+.GameHistory{
+    top: 20px;
+
+}
+.GameStatus{
+    position: absolute;
+    padding: 15px;
+    top: 162px;
+    color: orange;
+}
+.Player {
+    text-align: center;
+    padding-left: 20px;
+    display: inline-flex;
+    justify-content: left;
+    width: 300px;
+}
+.GameLog {
+    text-align: center;
+    padding: 20px;
+    display: inline-flex;
+    justify-content: center;
+    background-color: grey;
+    width: 300px;
+    margin-top: 20px;
+}
+.Opponent {
+    text-align: center;
+    display: inline-flex;
+    justify-content: right;
+    width: 300px;
+}
