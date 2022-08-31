@@ -18,9 +18,15 @@ const GamePage = () => {
       clearTimeout(timeOuts);
       gameOver();
     }
-  }, [playerhitPonts, opponenthitPonts, gameStatus]);
+  }, [playerhitPonts, opponenthitPonts, gameStatus , dices]);
   const gameOver = () => {
     setGameStatus(GAME_STATES.gameOver);
+    let move = {
+      'player': playerhitPonts,
+      'opponent': opponenthitPonts,
+      'action': 'game ended'
+    }
+    setGameHistory([...gameHistory, move]);
   }
   const onAtackClicked = () => {
     throwDice();
